@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Della+Respira&family=Hind+Madurai:wght@300&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  transition: 0.5s;
+  font-weight: bolder;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f8f6f4 !important;
+}
+a {
+  text-decoration: none;
+  color: #26577c;
+  font-family: "Della Respira", serif;
+}
+p {
+  color: #26577c;
+  font-family: "Della Respira", serif;
+}
+nav {
+  padding: 5px 5%;
+  width: 100%;
+  height: 65px;
+  background-color: #c4dfdf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  -webkit-box-shadow: 0px 0px 31px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 31px -16px rgba(0, 0, 0, 0.75);
+}
+nav .tituloNav {
+  font-size: 1.5rem;
+}
+.linksContainer {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+#link {
+  border-bottom: solid 2px transparent;
+  padding: 20px 5% 20px 5%;
+}
+#link:hover {
+  border-bottom: solid 2px #26577c;
+  background-color: #ffffff50;
+}
+.barrasBurguer {
+  display: none;
+  font-size: 1.5rem;
+  color: #26577c;
+}
+/* fim do nav */
+.principal {
+  width: 100%;
+}
+.sessao-1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.imgContiner {
+  max-width: 30%;
+}
+.imgContiner img {
+  width: 100%;
+  border-radius: 50%;
+  border: solid 5px #c4dfdf;
+}
+.sobreMim {
+  width: 50%;
+}
+.sobreMim p {
+  font-size: 1.7rem;
+}
+.sessao-2 {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #c4dfdf;
+}
+.cartaAbilidade {
+  width: 250px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: solid 2px transparent;
+  border-radius: 15px;
+}
+.cartaAbilidade:hover {
+  scale: 1.1;
+  border: solid 2px #f8f6f4;
+  -webkit-box-shadow: 0px 5px 35px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 35px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 35px -4px rgba(0, 0, 0, 0.75);
+}
+.cartaAbilidade i {
+  font-size: 2rem;
+  color: #26577c;
+}
+.cartaAbilidade p {
+  font-size: 1.2rem;
+}
+.sessao-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.sessao-3 .tituloSessao3 {
+  font-size: 1.7rem;
+  margin: 50px;
+}
+.cartasContainers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cartaProjeto {
+  width: 250px;
+  margin: 2px;
+  padding: 15px;
+  margin: 50px;
+  border-radius: 25px;
+  background-color: #c4dfdf;
+}
+.cartaProjeto:hover {
+  scale: 1.1;
+  -webkit-box-shadow: 0px 5px 35px -21px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 35px -21px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 35px -21px rgba(0, 0, 0, 0.75);
+}
+.descricao {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.tituloProj {
+  padding: 15px;
+  font-size: 1.3rem;
+}
+.cartaProjeto a img {
+  width: 100%;
+  border-radius: 10px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px;
+  width: 100%;
+  height: 40vh;
+  background-color: #c4dfdf;
+}
+.footerTitulo {
+  font-size: 1.5rem;
+}
+.containerContatos {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.contatosLink {
+  background-color: #e3f4f4;
+  padding: 7px;
+  border-radius: 15px;
+}
+.contatosLink:hover {
+  scale: 1.1;
+  -webkit-box-shadow: 0px 0px 31px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 31px -16px rgba(0, 0, 0, 0.75);
+}
+.downloadLink {
+  background-color: #e3f4f4;
+  padding: 7px;
+  border-radius: 15px;
+  border: solid 4px transparent;
+}
+.downloadLink:hover {
+  border: solid 4px #26577c;
+}
+@media (max-width: 768px) {
+  .linksContainer {
+    transition: 1s;
+    top: 65px;
+    right: -500px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #c4dfdf;
+    -webkit-box-shadow: 0px 18px 31px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 18px 31px -16px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 18px 31px -16px rgba(0, 0, 0, 0.75);
+  }
+  .linksContainer.active {
+    top: 65px;
+    right: 0px;
+  }
+  .barrasBurguer {
+    display: block;
+  }
+  .barrasBurguer:hover {
+    cursor: pointer;
+  }
+  .barrasBurguer.active {
+    transform: rotate(90deg);
+  }
+  .sessao-2 {
+    height: 150vh;
+  }
+}
+@media (max-width: 636px) {
+  .contatosLink {
+    margin: 5px;
+  }
+}
