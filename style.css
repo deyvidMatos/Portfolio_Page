@@ -84,7 +84,7 @@ nav .tituloNav {
   font-size: 1.7rem;
 }
 .sessao-2 {
-  height: 50vh;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -93,7 +93,8 @@ nav .tituloNav {
 }
 .cartaAbilidade {
   width: 250px;
-  padding: 50px;
+  height: 200px;
+  margin: 15px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,6 +130,7 @@ nav .tituloNav {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .cartaProjeto {
   width: 250px;

@@ -1,7 +1,8 @@
-const burger = document.querySelector(".barrasBurguer");
-const links = document.querySelector(".linksContainer");
+import { projects } from "./projectsArray.js";
+import { toRender } from "./render.js";
 
-burger.addEventListener("click", () => {
-  burger.classList.toggle("active");
-  links.classList.toggle("active");
+window.addEventListener('DOMContentLoaded', function(){
+    toRender(projects)
 });
+
+toRender();
